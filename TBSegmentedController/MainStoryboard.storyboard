@@ -39,6 +39,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="control" destination="61k-pt-1Yr" id="mF3-ay-wVX"/>
                         <outlet property="label" destination="GW4-7T-WhH" id="lbi-of-Jfh"/>
                     </connections>
                 </viewController>
@@ -51,6 +52,7 @@
         <class className="CustomViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CustomViewController.h"/>
             <relationships>
+                <relationship kind="outlet" name="control" candidateClass="TBSegmentedControl"/>
                 <relationship kind="outlet" name="label" candidateClass="UILabel"/>
             </relationships>
         </class>

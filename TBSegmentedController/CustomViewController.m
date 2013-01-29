@@ -13,6 +13,8 @@
 
 @property (nonatomic, strong) IBOutlet UILabel* label;
 
+@property (nonatomic, strong) IBOutlet TBSegmentedControl* control;
+
 @end
 
 @implementation CustomViewController
@@ -24,6 +26,11 @@
             [UIImage imageNamed:@"segment_2_selected.png"], nil];
 }
 
+- (void) viewWillAppear:(BOOL)animated
+{
+    //Just to initialize the label
+    [self didChangeState:self.control];
+}
 - (void) didChangeState:(TBSegmentedControl *)view
 {
     self.label.text = [NSString stringWithFormat:@"Selected = %i",view.selectedIndex + 1];

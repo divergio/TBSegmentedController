@@ -14,7 +14,7 @@ Each image should be the same size and show ALL of the segments, with one of the
 
 1. Add `TBSegmentedControl.h/m to your project. 
 1. Add a `UIImageView` to a .xib or your Storyboard. 
-2. Set the dimensions of the view to the image you want to use for the segment controller.
+2. Set the dimensions of the view to the image you want to use for the segment control.
 3. Set the "Custom Class" to `TBSegmentedControl`.
 4. Set the delegate for the TBSegmentedControl (UIImageView) to your CustomViewController (or some other controller).  
 5. Implement the delegate functions in `TBSegmentedControlDelegate` to receive the segment state change notifications, and to provide the images. See examples in the project. 
@@ -27,10 +27,18 @@ A client's designers gave me the wrong kind of images for segmented controls (th
 
 Finally I just decided to use their original images and make a custom segment control that  implemented UISegmentControl functionality.
 
+###Why use it?
+
+There are other custom segmented controls you could use, but most of them use enabled/disabled images per segment. 
+
+This one uses images of the whole control in its different states, if that’s the form your designs come in.
+
 ###What does it look like?
 
+Button 1 Selected
 ![select button 1](https://raw.github.com/divergio/TBSegmentedController/master/segment_screenshot1.png)
 
+Button 2 Selected
 ![select button 2](https://raw.github.com/divergio/TBSegmentedController/master/segment_screenshot2.png)
 
 ###Why does that button look so bad?
