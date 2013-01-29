@@ -27,11 +27,23 @@ A client's designers gave me the wrong kind of images for segmented controls (th
 
 Finally I just decided to use their original images and make a custom segment control that  implemented UISegmentControl functionality.
 
+###What does it look like?
+
+![select button 1](https://raw.github.com/divergio/TBSegmentedController/master/segment_screenshot1.png)
+
+![select button 2](https://raw.github.com/divergio/TBSegmentedController/master/segment_screenshot2.png)
+
 ###Why does that button look so bad?
 
-That was deliberate. I spent about five minutes in Pixelmator making the dummy buttons. Since you supply the exact images, you can make any kind of SegmentControl you want. 
+That was deliberate in order to demonstrate that they’re really just images.  I spent about five minutes in Pixelmator making the dummy buttons. Since you supply the exact images, you can have any kind of look you want for your SegmentControl.
 
 In this case the images have the text labels. My client actually used icons on the labels. You could imagine modifying the class so that it takes an array of strings as well as images and uses the strings to label the UIButtons.
+
+###Why upload it?
+
+I thought I was kind of clever using my favorite new Objective-C feature, associated objects. 
+
+Also, I like how this control is very much pro-Storyboard. I’m designing a lot of my custom controls to be easy to use with storyboards. I find a lot of the components I find online are kind of old school and do most of the configuration programmatically. I’m trying to figure out ways to use things like user-defined runtime attributes to make use of storyboards (or xibs) still work well with customized controls. 
 
 ## Known limitations
 
