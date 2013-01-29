@@ -27,6 +27,12 @@ A client's designers gave me the wrong kind of images for segmented controls (th
 
 Finally I just decided to use their original images and make a custom segment control that  implemented UISegmentControl functionality.
 
+###Why does that button look so bad?
+
+That was deliberate. I spent about five minutes in Pixelmator making the dummy buttons. Since you supply the exact images, you can make any kind of SegmentControl you want. 
+
+In this case the images have the text labels. My client actually used icons on the labels. You could imagine modifying the class so that it takes an array of strings as well as images and uses the strings to label the UIButtons.
+
 ## Known limitations
 
 The segments have to be all the same size because the button dimensions are set automatically using **maths**. You can imagine a design where this isn't the case, and custom dimensions are used (like an HTML image map). 
