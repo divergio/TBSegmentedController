@@ -1,0 +1,12 @@
+
+*.xcworkspacedata
+
+*.xcuserstate
+
+*.xcsettings
+
+*.xcscheme
+
+TBSegmentedControl.xcodeproj/xcuserdata/tylerbarth.xcuserdatad/xcschemes/xcschememanagement.plist
+
+Design/*

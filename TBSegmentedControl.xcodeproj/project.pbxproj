@@ -16,22 +16,36 @@
 		56F5F91E16B8331C00D11708 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 56F5F91D16B8331C00D11708 /* Default.png */; };
 		56F5F92016B8331C00D11708 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56F5F91F16B8331C00D11708 /* Default@2x.png */; };
 		56F5F92216B8331C00D11708 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56F5F92116B8331C00D11708 /* Default-568h@2x.png */; };
+		56F5F92916B8334D00D11708 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F5F92816B8334D00D11708 /* MainStoryboard.storyboard */; };
+		56F5F93216B836B900D11708 /* TBSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F5F93116B836B900D11708 /* TBSegmentedControl.m */; };
+		56F5F93516B8380C00D11708 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F5F93416B8380C00D11708 /* CustomViewController.m */; };
+		56F5F93916B8389F00D11708 /* segment_0_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56F5F93616B8389E00D11708 /* segment_0_selected@2x.png */; };
+		56F5F93A16B8389F00D11708 /* segment_1_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56F5F93716B8389E00D11708 /* segment_1_selected@2x.png */; };
+		56F5F93B16B8389F00D11708 /* segment_2_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56F5F93816B8389E00D11708 /* segment_2_selected@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		56F5F90816B8331C00D11708 /* TBSegmentedController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBSegmentedController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F5F90816B8331C00D11708 /* TBSegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBSegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F5F90B16B8331C00D11708 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		56F5F90D16B8331C00D11708 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		56F5F90F16B8331C00D11708 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		56F5F91316B8331C00D11708 /* TBSegmentedController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBSegmentedController-Info.plist"; sourceTree = "<group>"; };
+		56F5F91316B8331C00D11708 /* TBSegmentedControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBSegmentedControl-Info.plist"; sourceTree = "<group>"; };
 		56F5F91516B8331C00D11708 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		56F5F91716B8331C00D11708 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		56F5F91916B8331C00D11708 /* TBSegmentedController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TBSegmentedController-Prefix.pch"; sourceTree = "<group>"; };
+		56F5F91916B8331C00D11708 /* TBSegmentedControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TBSegmentedControl-Prefix.pch"; sourceTree = "<group>"; };
 		56F5F91A16B8331C00D11708 /* TBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBAppDelegate.h; sourceTree = "<group>"; };
 		56F5F91B16B8331C00D11708 /* TBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBAppDelegate.m; sourceTree = "<group>"; };
 		56F5F91D16B8331C00D11708 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		56F5F91F16B8331C00D11708 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		56F5F92116B8331C00D11708 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		56F5F92816B8334D00D11708 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		56F5F93016B836B900D11708 /* TBSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBSegmentedControl.h; sourceTree = "<group>"; };
+		56F5F93116B836B900D11708 /* TBSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBSegmentedControl.m; sourceTree = "<group>"; };
+		56F5F93316B8380C00D11708 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		56F5F93416B8380C00D11708 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		56F5F93616B8389E00D11708 /* segment_0_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segment_0_selected@2x.png"; sourceTree = "<group>"; };
+		56F5F93716B8389E00D11708 /* segment_1_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segment_1_selected@2x.png"; sourceTree = "<group>"; };
+		56F5F93816B8389E00D11708 /* segment_2_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segment_2_selected@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +65,7 @@
 		56F5F8FF16B8331C00D11708 = {
 			isa = PBXGroup;
 			children = (
-				56F5F91116B8331C00D11708 /* TBSegmentedController */,
+				56F5F91116B8331C00D11708 /* TBSegmentedControl */,
 				56F5F90A16B8331C00D11708 /* Frameworks */,
 				56F5F90916B8331C00D11708 /* Products */,
 			);
@@ -60,7 +74,7 @@
 		56F5F90916B8331C00D11708 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				56F5F90816B8331C00D11708 /* TBSegmentedController.app */,
+				56F5F90816B8331C00D11708 /* TBSegmentedControl.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,23 +89,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		56F5F91116B8331C00D11708 /* TBSegmentedController */ = {
+		56F5F91116B8331C00D11708 /* TBSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
 				56F5F91A16B8331C00D11708 /* TBAppDelegate.h */,
 				56F5F91B16B8331C00D11708 /* TBAppDelegate.m */,
+				56F5F93016B836B900D11708 /* TBSegmentedControl.h */,
+				56F5F93116B836B900D11708 /* TBSegmentedControl.m */,
+				56F5F92816B8334D00D11708 /* MainStoryboard.storyboard */,
+				56F5F93316B8380C00D11708 /* CustomViewController.h */,
+				56F5F93416B8380C00D11708 /* CustomViewController.m */,
+				56F5F93616B8389E00D11708 /* segment_0_selected@2x.png */,
+				56F5F93716B8389E00D11708 /* segment_1_selected@2x.png */,
+				56F5F93816B8389E00D11708 /* segment_2_selected@2x.png */,
 				56F5F91216B8331C00D11708 /* Supporting Files */,
 			);
+			name = TBSegmentedControl;
 			path = TBSegmentedController;
 			sourceTree = "<group>";
 		};
 		56F5F91216B8331C00D11708 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				56F5F91316B8331C00D11708 /* TBSegmentedController-Info.plist */,
+				56F5F91316B8331C00D11708 /* TBSegmentedControl-Info.plist */,
 				56F5F91416B8331C00D11708 /* InfoPlist.strings */,
 				56F5F91716B8331C00D11708 /* main.m */,
-				56F5F91916B8331C00D11708 /* TBSegmentedController-Prefix.pch */,
+				56F5F91916B8331C00D11708 /* TBSegmentedControl-Prefix.pch */,
 				56F5F91D16B8331C00D11708 /* Default.png */,
 				56F5F91F16B8331C00D11708 /* Default@2x.png */,
 				56F5F92116B8331C00D11708 /* Default-568h@2x.png */,
@@ -102,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		56F5F90716B8331C00D11708 /* TBSegmentedController */ = {
+		56F5F90716B8331C00D11708 /* TBSegmentedControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56F5F92516B8331C00D11708 /* Build configuration list for PBXNativeTarget "TBSegmentedController" */;
+			buildConfigurationList = 56F5F92516B8331C00D11708 /* Build configuration list for PBXNativeTarget "TBSegmentedControl" */;
 			buildPhases = (
 				56F5F90416B8331C00D11708 /* Sources */,
 				56F5F90516B8331C00D11708 /* Frameworks */,
@@ -114,9 +137,9 @@
 			);
 			dependencies = (
 			);
-			name = TBSegmentedController;
+			name = TBSegmentedControl;
 			productName = TBSegmentedController;
-			productReference = 56F5F90816B8331C00D11708 /* TBSegmentedController.app */;
+			productReference = 56F5F90816B8331C00D11708 /* TBSegmentedControl.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +152,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Tyler Barth";
 			};
-			buildConfigurationList = 56F5F90316B8331C00D11708 /* Build configuration list for PBXProject "TBSegmentedController" */;
+			buildConfigurationList = 56F5F90316B8331C00D11708 /* Build configuration list for PBXProject "TBSegmentedControl" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -141,7 +164,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				56F5F90716B8331C00D11708 /* TBSegmentedController */,
+				56F5F90716B8331C00D11708 /* TBSegmentedControl */,
 			);
 		};
 /* End PBXProject section */
@@ -155,6 +178,10 @@
 				56F5F91E16B8331C00D11708 /* Default.png in Resources */,
 				56F5F92016B8331C00D11708 /* Default@2x.png in Resources */,
 				56F5F92216B8331C00D11708 /* Default-568h@2x.png in Resources */,
+				56F5F92916B8334D00D11708 /* MainStoryboard.storyboard in Resources */,
+				56F5F93916B8389F00D11708 /* segment_0_selected@2x.png in Resources */,
+				56F5F93A16B8389F00D11708 /* segment_1_selected@2x.png in Resources */,
+				56F5F93B16B8389F00D11708 /* segment_2_selected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +194,8 @@
 			files = (
 				56F5F91816B8331C00D11708 /* main.m in Sources */,
 				56F5F91C16B8331C00D11708 /* TBAppDelegate.m in Sources */,
+				56F5F93216B836B900D11708 /* TBSegmentedControl.m in Sources */,
+				56F5F93516B8380C00D11708 /* CustomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,9 +273,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TBSegmentedController/TBSegmentedController-Prefix.pch";
-				INFOPLIST_FILE = "TBSegmentedController/TBSegmentedController-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TBSegmentedController/TBSegmentedControl-Prefix.pch";
+				INFOPLIST_FILE = "TBSegmentedController/TBSegmentedControl-Info.plist";
+				PRODUCT_NAME = TBSegmentedControl;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -255,9 +284,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TBSegmentedController/TBSegmentedController-Prefix.pch";
-				INFOPLIST_FILE = "TBSegmentedController/TBSegmentedController-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TBSegmentedController/TBSegmentedControl-Prefix.pch";
+				INFOPLIST_FILE = "TBSegmentedController/TBSegmentedControl-Info.plist";
+				PRODUCT_NAME = TBSegmentedControl;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -265,7 +294,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		56F5F90316B8331C00D11708 /* Build configuration list for PBXProject "TBSegmentedController" */ = {
+		56F5F90316B8331C00D11708 /* Build configuration list for PBXProject "TBSegmentedControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56F5F92316B8331C00D11708 /* Debug */,
@@ -274,7 +303,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56F5F92516B8331C00D11708 /* Build configuration list for PBXNativeTarget "TBSegmentedController" */ = {
+		56F5F92516B8331C00D11708 /* Build configuration list for PBXNativeTarget "TBSegmentedControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56F5F92616B8331C00D11708 /* Debug */,
