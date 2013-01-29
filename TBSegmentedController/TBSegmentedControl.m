@@ -1,9 +1,7 @@
 //
-//  CWSegmentButtonController.m
-//  chewen
+//  TBSegmentedControl.h
 //
 //  Created by Tyler Barth on 2013-01-29.
-//  Copyright (c) 2013年 Brian. All rights reserved.
 //
 
 #import "TBSegmentedControl.h"
