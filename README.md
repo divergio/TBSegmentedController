@@ -12,11 +12,12 @@ Each image should be the same size and show ALL of the segments, with one of the
 
 ##Instructions
 
+1. Add `TBSegmentedControl.h/m to your project. 
 1. Add a `UIImageView` to a .xib or your Storyboard. 
 2. Set the dimensions of the view to the image you want to use for the segment controller.
 3. Set the "Custom Class" to `TBSegmentedControl`.
 4. Set the delegate for the TBSegmentedControl (UIImageView) to your CustomViewController (or some other controller).  
-5. Implement the delegate functions in `TBSegmentedControlDelegate` to receive the segment state change notifications, and to provide the images.
+5. Implement the delegate functions in `TBSegmentedControlDelegate` to receive the segment state change notifications, and to provide the images. See examples in the project. 
 
 ##FAQ
 
@@ -28,7 +29,7 @@ Finally I just decided to use their original images and make a custom segment co
 
 ## Known limitations
 
-The segments have to be all the same size because the button dimensions are set automatically using MATH. You can imagine a design where this isn't the case, and custom dimensions are used (like an HTML image map). 
+The segments have to be all the same size because the button dimensions are set automatically using **maths**. You can imagine a design where this isn't the case, and custom dimensions are used (like an HTML image map). 
 
 ## Copyright and License
 
