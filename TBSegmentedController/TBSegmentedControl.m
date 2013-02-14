@@ -101,15 +101,34 @@ static char CW_BUTTON_KEY;
 - (void) setSelectedIndex:(NSUInteger)selectedIndex
 {
     //Make the button selected for accessibility
-    [(UIButton*) self.buttons[selectedIndex] setSelected:YES];
-    
+    //This could be cleaner, except that it's a public function
+    //so we can't assume it's called from a UIButton
+    for (UIButton* button in self.buttons) {
+        if (button == self.buttons[selectedIndex]) {
+            [button setSelected:YES];
+        }
+        else
+            [button setSelected:NO];
+    }
     _selectedIndex = selectedIndex;
     [self setImage:[self.images objectAtIndex:selectedIndex]];
     
 }
 
+/*
+- (void) pressDown:(UIButton*)sender
+{
+    
+}
+
+- (void) pressUp:(UIButton*)sender
+{
+    
+}
+*/
+
 //If any of the buttons are pressed, they call this method.
-- (void) changeState: (UIButton*) sender
+- (void) changeState:(UIButton*)sender
 {
     //Get the int associated with the button, this is the segment index.
     NSNumber* index = (NSNumber*) objc_getAssociatedObject(sender, &CW_BUTTON_KEY);
@@ -120,7 +139,6 @@ static char CW_BUTTON_KEY;
         [self.delegate didChangeState:self];
     }
 }
-
 
 #pragma mark - UIAccessibilityContainer protocol 
 - (NSInteger)accessibilityElementCount
