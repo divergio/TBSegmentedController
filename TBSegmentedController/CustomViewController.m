@@ -22,6 +22,26 @@
 
 @implementation CustomViewController
 
+- (void) viewDidLoad
+{
+    //Setting text color example
+    [[UIButton appearanceWhenContainedIn:[TBSegmentedControl class],[self class],nil] setTitleColor:[UIColor yellowColor] forState:UIControlStateNormal];
+    [[UIButton appearanceWhenContainedIn:[TBSegmentedControl class],[self class],nil] setTitleColor:[UIColor whiteColor ] forState:UIControlStateSelected];
+}
+
+- (void) viewWillAppear:(BOOL)animated
+{
+    //Just to initialize the labels
+    [self didChangeState];
+}
+- (void) didChangeState
+{
+    self.label0.text = [NSString stringWithFormat:@"Selected = %i",self.control0.selectedIndex + 1];
+    self.label1.text = [NSString stringWithFormat:@"Selected = %i",self.control1.selectedIndex + 1];
+}
+
+#pragma mark - TBSegmentedControlDelegates
+
 - (NSArray*) imagesForSegmentButton:(TBSegmentedControl *)view
 {
     if (view == self.control0) {
@@ -29,16 +49,14 @@
                 [UIImage imageNamed:@"segment_1_selected.png"],
                 [UIImage imageNamed:@"segment_2_selected.png"], nil];
     } else if (view == self.control1) {
+        //Should be other images without labels.
         return [NSArray arrayWithObjects:[UIImage imageNamed:@"segment_0_selected.png"],
                 [UIImage imageNamed:@"segment_1_selected.png"],
                 [UIImage imageNamed:@"segment_2_selected.png"], nil];
     }
-    else
-#ifdef DEBUG
-        NSLog(@"Invalid segment control");
-#endif
     return nil;
 }
+
 
 - (NSArray*) titlesForSegmentButton:(TBSegmentedControl *)view
 {
@@ -60,17 +78,4 @@
     
     return nil;
 }
-
-
-- (void) viewWillAppear:(BOOL)animated
-{
-    //Just to initialize the label
-    [self didChangeState];
-}
-- (void) didChangeState
-{
-    self.label0.text = [NSString stringWithFormat:@"Selected = %i",self.control0.selectedIndex + 1];
-    self.label1.text = [NSString stringWithFormat:@"Selected = %i",self.control1.selectedIndex + 1];
-}
-
 @end
