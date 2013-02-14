@@ -25,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56BA5C5616CCE25A00EFE0D2 /* libAccessibility.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAccessibility.dylib; path = usr/lib/libAccessibility.dylib; sourceTree = SDKROOT; };
 		56F5F90816B8331C00D11708 /* TBSegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBSegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F5F90B16B8331C00D11708 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		56F5F90D16B8331C00D11708 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,6 +66,7 @@
 		56F5F8FF16B8331C00D11708 = {
 			isa = PBXGroup;
 			children = (
+				56BA5C5616CCE25A00EFE0D2 /* libAccessibility.dylib */,
 				56F5F91116B8331C00D11708 /* TBSegmentedControl */,
 				56F5F90A16B8331C00D11708 /* Frameworks */,
 				56F5F90916B8331C00D11708 /* Products */,
@@ -310,6 +312,7 @@
 				56F5F92716B8331C00D11708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

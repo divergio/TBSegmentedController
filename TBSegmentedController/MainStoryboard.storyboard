@@ -29,18 +29,55 @@
                                     <outlet property="delegate" destination="PWf-ab-cfz" id="pIK-DC-nJ9"/>
                                 </connections>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BTH-ZX-RGG" customClass="TBSegmentedControl">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="591-Rp-aqJ"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="PWf-ab-cfz" id="BoU-TD-51b"/>
+                                </connections>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Selected:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBB-dJ-qKF">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="T5B-eV-0bf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Without Labels" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1f-QR-58W">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="With Labels" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPz-4W-AK4">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="GW4-7T-WhH" firstAttribute="centerX" secondItem="61k-pt-1Yr" secondAttribute="centerX" type="default" id="58z-YP-ik4"/>
-                            <constraint firstItem="GW4-7T-WhH" firstAttribute="centerX" secondItem="rIL-VI-HvS" secondAttribute="centerX" type="default" id="K4g-uX-PUA"/>
-                            <constraint firstItem="61k-pt-1Yr" firstAttribute="top" secondItem="rIL-VI-HvS" secondAttribute="top" constant="117" id="Wk5-MW-egd"/>
-                            <constraint firstAttribute="bottom" secondItem="GW4-7T-WhH" secondAttribute="bottom" constant="218" id="e08-ec-wUo"/>
+                            <constraint firstItem="BTH-ZX-RGG" firstAttribute="top" secondItem="EPz-4W-AK4" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="6Dk-O7-apS"/>
+                            <constraint firstItem="JBB-dJ-qKF" firstAttribute="top" secondItem="rIL-VI-HvS" secondAttribute="top" constant="224" id="9BT-tp-ueS"/>
+                            <constraint firstItem="BTH-ZX-RGG" firstAttribute="trailing" secondItem="61k-pt-1Yr" secondAttribute="trailing" type="default" id="Afd-Ft-4yW"/>
+                            <constraint firstItem="JBB-dJ-qKF" firstAttribute="leading" secondItem="rIL-VI-HvS" secondAttribute="leading" constant="68" id="K4G-PM-R7t"/>
+                            <constraint firstItem="Y1f-QR-58W" firstAttribute="centerX" secondItem="61k-pt-1Yr" secondAttribute="centerX" type="default" id="Qhj-Oy-Bex"/>
+                            <constraint firstItem="EPz-4W-AK4" firstAttribute="top" secondItem="rIL-VI-HvS" secondAttribute="top" constant="157" id="UZX-7C-M31"/>
+                            <constraint firstItem="GW4-7T-WhH" firstAttribute="top" secondItem="61k-pt-1Yr" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="X2U-1P-Qwm"/>
+                            <constraint firstItem="Y1f-QR-58W" firstAttribute="top" secondItem="rIL-VI-HvS" secondAttribute="top" constant="20" symbolic="YES" type="default" id="bcV-dl-hzV"/>
+                            <constraint firstItem="EPz-4W-AK4" firstAttribute="centerX" secondItem="BTH-ZX-RGG" secondAttribute="centerX" type="default" id="dj3-La-Jlt"/>
+                            <constraint firstItem="61k-pt-1Yr" firstAttribute="top" secondItem="rIL-VI-HvS" secondAttribute="top" constant="51" id="h9l-gz-oRe"/>
+                            <constraint firstItem="BTH-ZX-RGG" firstAttribute="leading" secondItem="61k-pt-1Yr" secondAttribute="leading" type="default" id="sFl-xx-uvi"/>
+                            <constraint firstItem="Y1f-QR-58W" firstAttribute="centerX" secondItem="rIL-VI-HvS" secondAttribute="centerX" type="default" id="sVc-aY-d6d"/>
+                            <constraint firstItem="JBB-dJ-qKF" firstAttribute="leading" secondItem="GW4-7T-WhH" secondAttribute="leading" type="default" id="yNQ-fP-hco"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="control" destination="61k-pt-1Yr" id="mF3-ay-wVX"/>
-                        <outlet property="label" destination="GW4-7T-WhH" id="lbi-of-Jfh"/>
+                        <outlet property="control0" destination="61k-pt-1Yr" id="peP-L5-9NU"/>
+                        <outlet property="control1" destination="BTH-ZX-RGG" id="hot-nn-UmB"/>
+                        <outlet property="label0" destination="GW4-7T-WhH" id="HhC-CB-plB"/>
+                        <outlet property="label1" destination="JBB-dJ-qKF" id="007-n7-A0b"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6MR-6A-lzu" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -52,8 +89,10 @@
         <class className="CustomViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CustomViewController.h"/>
             <relationships>
-                <relationship kind="outlet" name="control" candidateClass="TBSegmentedControl"/>
-                <relationship kind="outlet" name="label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="control0" candidateClass="TBSegmentedControl"/>
+                <relationship kind="outlet" name="control1" candidateClass="TBSegmentedControl"/>
+                <relationship kind="outlet" name="label0" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="label1" candidateClass="UILabel"/>
             </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
