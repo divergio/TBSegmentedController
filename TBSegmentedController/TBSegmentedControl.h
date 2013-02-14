@@ -16,11 +16,14 @@
 //One image for each button selected
 - (NSArray*) imagesForSegmentButton: (TBSegmentedControl*) view;
 
+//Labels 
+- (NSArray*) textForSegmentButton: (TBSegmentedControl*) view;
+
 @end
 
 @interface TBSegmentedControl : UIImageView
 
-@property (nonatomic, strong) IBOutlet id <TBSegmentedControlDelegate> delegate;
+@property (nonatomic, weak) IBOutlet id <TBSegmentedControlDelegate> delegate;
 
 @property (nonatomic, assign) NSUInteger selectedIndex;
 
